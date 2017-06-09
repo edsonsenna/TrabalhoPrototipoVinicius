@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="css/mystyle.css">
+		<script src="js/jquery-3.2.1.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<title>Sistema Transporte</title>
+	</head>
+	<body>
+		<div class="header">
+			<h1>Sistema de Gerenciamento de Viagens</h1>
+			<h3>IFSULDEMINAS - Campus Passos</h3>
+		</div>
+		<div class="nav-side-menu">
+			<div class="brand">Menu</div>
+			<i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content"></i>
+			<div class="menu-list">
+				<ul id="menu-content" class="menu-content collapse out">
+					<li  data-toggle="collapse" data-target="#servidor" class="collapsed active">
+						<i class="fa fa-gift fa-lg"></i> Servidor <span class="arrow"></span>
+					</li>
+					<ul class="sub-menu collapse" id="servidor">
+						<li data-toggle="collapse" data-target="#servServicos" class="collapsed">
+						  <i class="fa fa-car fa-lg"></i> Serviços <span class="arrow"></span>
+						</li>
+						<ul class="sub-menu collapse" id="servServicos">
+							<a href="paginas/requisicaoViagem.html"><li>Requisitar Viagem</li></a>
+							<a href="paginas/relatorio.html"><li>Registra relatório de viagem</li></a>
+						</ul>	
+					</ul>
+				</ul>
+			</div>
+		</div>
+		<div class = "rodape">
+			<p>IFSULDEMINAS Campus Passos</p>
+			<p>Mario Ribola, 409</p>
+		</div>
+	</body>
+</html>
