@@ -188,6 +188,7 @@ div.container{
 	top: 120px;
 	text-align: center;
 	width: 1300px;
+	z-index: -1;
 	left: calc((100% - 1300px)/2);
 }
 
