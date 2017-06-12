@@ -187,8 +187,8 @@ div.container{
 	position: absolute;
 	top: 120px;
 	text-align: center;
-	width: 1500px;
-	left: calc((100% - 1500px)/2);
+	width: 1300px;
+	left: calc((100% - 1300px)/2);
 }
 
 table.table{
