@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="css/mystyle.css">
+		<script src="js/jquery-3.2.1.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<title>Sistema Transporte</title>
+	</head>
+	<body>
+		<div class="header">
+			<h1>Sistema de Gerenciamento de Viagens</h1>
+			<h3>IFSULDEMINAS - Campus Passos</h3>
+		</div>
+		
+		<div class="nav-side-menu">
+			<div class="brand">Menu</div>
+			<i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content"></i>
+				<div class="menu-list">
+					<ul id="menu-content" class="menu-content collapse out">
+						<li  data-toggle="collapse" data-target="#administrador" class="collapsed active">
+						  <a href="#"><i class="fa fa-gift fa-lg"></i> Administrador <span class="arrow"></span></a>
+						</li>
+						<ul class="sub-menu collapse" id="administrador">
+							<li data-toggle="collapse" data-target="#admViagem" class="collapsed">
+							  <i class="fa fa-car fa-lg"></i> Viagens <span class="arrow"></span>
+							</li>
+							<ul class="sub-menu collapse" id="admViagem">
+								<a href="paginas/buscarViagem.html"><li>Consultar</li></a>
+							</ul>
+							
+							<li data-toggle="collapse" data-target="#admVeiculos" class="collapsed">
+							  <i class="fa fa-car fa-lg"></i> Veículos <span class="arrow"></span>
+							</li>
+							<ul class="sub-menu collapse" id="admVeiculos">
+								<a href="paginas/cadastrarVeiculos.html"><li>Cadastrar</li></a>
+								<a href="paginas/manutencaoVeiculos.html"><li>Manutenção</li></a>
+								<a href="paginas/buscarVeiculos.html"><li>Buscar/Alterar</li></a>
+							</ul>
+							
+							<li data-toggle="collapse" data-target="#admServidor" class="collapsed">
+							  <i class="fa fa-car fa-lg"></i> Servidores <span class="arrow"></span>
+							</li>
+							<ul class="sub-menu collapse" id="admServidor">
+								<a href="paginas/cadastrarServidor.html"><li>Cadastrar</li></a>
+								<a href="paginas/buscarServidor.html"><li>Buscar/Alterar</li></a>
+							</ul>
+							
+							<li data-toggle="collapse" data-target="#admMotorista" class="collapsed">
+							  <i class="fa fa-car fa-lg"></i> Motoristas <span class="arrow"></span>
+							</li>
+							<ul class="sub-menu collapse" id="admMotorista">
+								<a href="paginas/cadastrarMotorista.html"><li>Cadastrar</li></a>
+								<a href="paginas/buscarMotorista.html"><li>Buscar/Alterar</li></a>
+							</ul>
+							
+							<li data-toggle="collapse" data-target="#admRelatorio" class="collapsed">
+							  <i class="fa fa-car fa-lg"></i> Relatórios <span class="arrow"></span>
+							</li>
+							<ul class="sub-menu collapse" id="admRelatorio">
+								<a href="paginas/relatorio.html"><li>Gerar relatório</li></a>
+							</ul>
+						</ul>
+
+						<li  data-toggle="collapse" data-target="#servidor" class="collapsed active">
+							<i class="fa fa-gift fa-lg"></i> Servidor <span class="arrow"></span>
+						</li>
+						<ul class="sub-menu collapse" id="servidor">
+							<li data-toggle="collapse" data-target="#servServicos" class="collapsed">
+							  <i class="fa fa-car fa-lg"></i> Serviços <span class="arrow"></span>
+							</li>
+							<ul class="sub-menu collapse" id="servServicos">
+								<a href="paginas/requisicaoViagem.html"><li>Requisitar Viagem</li></a>
+							</ul>
+						</ul>
+					</ul>
+			 </div>
+		</div>
+		<div class = "rodape">
+			<p>IFSULDEMINAS Campus Passos</p>
+			<p>Mario Ribola, 409</p>
+		</div>
+	</body>
+</html>
